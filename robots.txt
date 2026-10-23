@@ -1,0 +1,22 @@
+# Robots.txt for MS Uttara Electric
+# Allow search engines to crawl the public website.
+
+User-agent: *
+Allow: /
+
+# Do not crawl server-side or development files/directories.
+Disallow: /admin/
+Disallow: /administrator/
+Disallow: /private/
+Disallow: /includes/
+Disallow: /config/
+Disallow: /vendor/
+Disallow: /backup/
+Disallow: /backups/
+Disallow: /logs/
+Disallow: /tmp/
+Disallow: /test/
+Disallow: /tests/
+
+# Sitemap
+Sitemap: https://msuttaraelectric.com.bd/sitemap.xml

@@ -1,0 +1,29 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+/node_modules/
+/vendor/
+
+# Private configuration
+config.local.php
+config.production.php
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Temporary and backup files
+*.tmp
+*.bak
+*.old
